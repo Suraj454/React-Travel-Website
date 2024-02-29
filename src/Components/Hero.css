@@ -1,0 +1,111 @@
+.hero{
+ height: 100vh;
+ width: 100%;
+ position: relative;
+}
+
+.hero-mid{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-mid h1{
+    padding-top:9rem ;
+   }
+
+
+.hero .pic1{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+   }
+
+   .hero-mid .pic2{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+
+   }
+
+   .hero-mid .pic3{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  
+   }
+
+   .hero-mid .pic4{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  
+   }
+
+ 
+   .hero-txt{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+   }
+
+   
+   .hero-txt h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+
+   .hero-txt p{
+    font-size: 1.3rem;
+     padding: 0.5rem 0 2rem 0;
+    color: white;
+   }
+
+   .hero-txt .show{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 1.1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+   }
+
+   .hero-txt .show:hover{
+    background-color: #2a2929;
+    color: white;
+   }
+
+   .hero-mid .hide{
+    display: none;
+   }
+
+
+
+   @media screen and (max-width : 555px) {
+    .hero-txt h1{
+        padding: 10px 20px;
+
+    }
+    .hero-txt p{
+        font-size: 1.1rem;
+         padding: 0 0 2rem 0;
+        color: white;
+       }
+
+       .hero-txt .show{
+        padding: .6rem 1.1rem;
+        border-radius: 1.1rem;
+        font-size: 1rem;
+       }
+   }
+   
